@@ -7,9 +7,12 @@ Border color: #000
 extra color:#
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&family=Dancing+Script:wght@400;700&family=Hina+Mincho&display=swap');
+
+
 
 header{
-    margin:0  4rem;
+    margin: 2rem;
     letter-spacing:  0.8rem;
     text-align: center;
     border-top: 5px solid #000;
@@ -23,5 +26,64 @@ header{
 
 body {
     Background-color:#8D9EFF;
-    color: #000;
+    color: #EFDAD7;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Hina Mincho', serif;
 }
+
+cite {
+    font-size: 1.8rem;
+}
+
+.imageText {
+     font-size: 1rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+
+
+.dedMoroz img {
+    width: 100%;
+    height: auto;
+}
+
+.lightBoats img {
+    width: 100%;
+    height: auto;
+}
+
+.yuleGoat img {
+    width: 100%;
+    height: auto;
+}
+
+@media (min-width: 800px) {
+    .dedMoroz {
+        width: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: 50%;
+        margin-top: 2rem;
+    }
+    
+    .lightBoats {
+         width: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: 50%;
+        margin-top: 2rem;
+    }
+    
+    .yuleGoat {
+         width: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: 50%;
+        margin-top: 2rem;
+    }
+}
+
+
